@@ -1,5 +1,7 @@
 <!--suppress HtmlDeprecatedAttribute -->
-<h1 align="center">SkyblockAddons</h1>
+<h1 align="center">RatblockAddons</h1>
+
+Some updates from a frustrated SBA user who wanted the plugin to be further modernised. (No, this is not a rat. It's a joke about my name. :>)
 
 <p align="center">
   <a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases" target="_blank">
