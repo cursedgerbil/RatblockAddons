@@ -108,7 +108,7 @@ public class ActionBarParser {
      */
     public String parseActionBar(String actionBar) {
         // First split the action bar into sections
-        String[] splitMessage = actionBar.split(" {3,}");
+        String[] splitMessage = actionBar.split(" {2,}");
         // This list holds the text of unused sections that aren't displayed anywhere else in SBA
         // so they can keep being displayed in the action bar
         List<String> unusedSections = new LinkedList<>();
@@ -154,6 +154,8 @@ public class ActionBarParser {
     private String parseSection(String section) {
         String stripColoring = TextUtils.stripColor(section);
         String convertMag;
+
+        section = section.trim();
 
         try {
             convertMag = TextUtils.convertMagnitudes(stripColoring);
