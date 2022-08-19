@@ -105,8 +105,7 @@ public class DataUtils {
      * This is set to {@code true} if the mod is running in production or if it's running in a dev environment that has
      * the environment variable {@code FETCH_DATA_ONLINE}.
      */
-    public static final boolean USE_ONLINE_DATA = !SkyblockAddonsTransformer.isDeobfuscated() ||
-            System.getenv().containsKey("FETCH_DATA_ONLINE");
+    public static final boolean USE_ONLINE_DATA = false;
 
     private static String path;
 
