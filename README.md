@@ -1,6 +1,8 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <h1 align="center">RatblockAddons</h1>
 
+**Sorry, RBA is abandoned, I haven't played Skyblock in forever.**
+
 Some updates from a frustrated SBA user who wanted the plugin to be further modernised. (No, this is not a rat. It's a joke about my name. :>)
 
 This fork of SBA is open-source so feel free to check out the code if you wish.
